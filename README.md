@@ -1,0 +1,9 @@
+Pass_1
+  --->input.asm
+  --->Pass_1.txt
+macroPass1
+   --->intermediate.txt
+   --->ala.txt
+   --->mnt.txt
+   --->mdt.txt
+   --->input.txt
