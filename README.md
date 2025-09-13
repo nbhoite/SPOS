@@ -1,9 +1,11 @@
 Pass_1
   --->input.asm
-  --->Pass_1.txt
+  --->Pass_1.txt,,,,
 macroPass1
    --->intermediate.txt
    --->ala.txt
    --->mnt.txt
    --->mdt.txt
-   --->input.txt
+   --->input.txt,,,,
+ PASS2.java
+   PASS2.txt
