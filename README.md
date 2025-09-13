@@ -1,6 +1,12 @@
-Pass_1
+Pass_1 assembler
   --->input.asm
   --->Pass_1.txt,,,,
+PassII.java assembler
+  --->Pass2.txt
+  --->input1.txt
+  --->symbol.txt
+  --->intermediate.txt
+  --->LiterAL.txt
 macroPass1
    --->intermediate.txt
    --->ala.txt
@@ -8,4 +14,5 @@ macroPass1
    --->mdt.txt
    --->input.txt,,,,
  PASS2.java
-   PASS2.txt
+   PASS2.txt,,,,,,
+
