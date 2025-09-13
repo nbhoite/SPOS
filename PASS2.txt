@@ -1,0 +1,58 @@
+PS C:\Users\DELL\Desktop\SPOS>
+javac PASS2.java
+PS C:\Users\DELL\Desktop\SPOS> java PASS2
+                        START   200 
+        201             MOVER   AREG
+        202             MOVEM   BREG
+        203     X       DS      1   
+        204     Y       DS      2   
+        205             STOP        
+        206             END
+IC
+                AD,01
+        201     IS,04   RG,01      
+        202     IS,05   RG,02      
+        203     S,X     DL,01   C,1
+        204     S,Y     DL,01   C,2
+        205     IS,00
+        206     AD,02
+SYM
+
+
+
+        0,X,203
+        1,Y,204
+
+
+LIT
+
+
+
+        0,1,203
+        1,2,204
+
+
+POOL
+
+
+
+
+
+
+        0,END,206
+
+
+
+
+
+
+
+MACHINE CODE
+
+ 04 01
+ 05 02
+ 01 1 203
+ 01 2 204
+ 00
+
+PS C:\Users\DELL\Desktop\SPOS> 
